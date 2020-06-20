@@ -1,2 +1,2 @@
-# food-app
+# sample site
 sample site
