@@ -1,0 +1,174 @@
+body {
+  background-color: #222831;
+  color: white;
+  margin: 5vw 15vw;
+  font-family: Arial,sans-serif;
+}
+p {
+  font-size: 1rem;
+}
+main img {
+  height: 70vh;
+}
+nav {
+  position: relative;
+}
+nav a {
+  display: inline-block;
+  margin: 1vw;
+  text-decoration: none;
+  color: white;
+}
+nav h3:hover {
+  text-decoration: underline;
+  color: #32e0c4;
+}
+nav h3 {
+  font-weight: lighter;
+}
+nav h1 {
+  font-size: 2rem;
+}
+nav .Button {
+  position: absolute;
+  right: 0%;
+  margin-top:2vw;
+}
+.intro h1 {
+  font-size: 3rem;
+}
+.intro img {
+  float: right;
+  display: block;
+}
+/* .intro {
+  margin: 5vw;
+} */
+.sec,.sec2 {
+   overflow: auto;
+ }
+.background_img {
+  position: absolute;
+}
+.img1 {
+  left:0;
+  opacity: 0.5;
+  z-index: -1;
+}
+.img2 {
+  right:0 ;
+  opacity: 0.5;
+  z-index: -1;
+}
+.img3 {
+  left:0;
+  opacity: 0.5;
+  z-index: -1;
+}
+.img4 {
+  right:0;
+  z-index: -1;
+}
+.img5 {
+  left:0;
+  z-index: -1;
+}
+.img6 {
+  right:0;
+  width:30vw;
+  z-index: -1;
+}
+.img7 {
+  left:0;
+  z-index: -1;
+}
+.img8 {
+  right:0;
+  z-index: -1;
+}
+.img9 {
+  left:0 ;
+  width: 30vw;
+  z-index: -1;
+}
+.text{
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.description .text,.sec2 .text {
+  text-align: justify;
+}
+
+.Button {
+	box-shadow: 0px 4px 10px -1px black;
+	background-color:#eeeeee;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	padding:14px 20px;
+	text-decoration:none;
+  transition: 0.2s;
+  margin:2vw;
+}
+.Button:hover {
+	background-color:#32e0c4;
+  transform: scale(1.1);
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+.sec img {
+  float: left;
+  display: block;
+}
+.sec2 img {
+  float: right;
+  display: block;
+}
+.image_block {
+  display: inline-block;
+  padding: 5%;
+}
+.image_block img {
+  height: 10%;
+}
+.bottom_mid, .footer {
+  text-align: center;
+  padding: 1vw;
+}
+.review {
+  position: relative;
+  text-align: center;
+}
+.review img {
+  width: 10%;
+  position: absolute;
+}
+.quote_img1 {
+  top: -35%;
+  left: -0%;
+}
+.quote_img2 {
+  bottom: -35%;
+  right: 0%;
+}
+footer img {
+  width:100%;
+}
+.name {
+  text-align: right;
+  font-weight: bold;
+}
+.quote {
+  align: center;
+  width: 32%;
+  display: inline-block;
+  padding: 5%;
+}
